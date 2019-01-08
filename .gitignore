@@ -1,5 +1,7 @@
+*.o
+
 # The executable
 fast-wfc-cxx
 
 # The results of the algorithm
-img/*
+img/*.png

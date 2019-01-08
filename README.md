@@ -16,6 +16,10 @@ At the time of writing, only the overlapping method has been implemented.
     cd fast-wfc
     cxx run
 
+# Easy packaging for distro maintainers
+
+    cxx pkg
+
 # Performance
 
 If fast-wfc is an order of magnitude faster than the original WFC algorithm, it is thanks to three main optimizations that have been made to the original algorithm, described below.
