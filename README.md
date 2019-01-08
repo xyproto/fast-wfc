@@ -1,19 +1,20 @@
-# fast-wfc
+# fast-wfc-cxx
+
+A fork of [fast-wfc](https://github.com/xyproto/fast-wfc).
 
 An implementation of [Wave Function Collapse](https://github.com/mxgmn/WaveFunctionCollapse) with a focus on performance.
 At the time of writing, only the overlapping method has been implemented.
 
 # Requirements
 
-You need a C++-17 compatible compiler.
+* A C++-17 compatible compiler.
+* [CXX](https://github.com/xyproto/cxx).
 
 # Getting started
 
-```
-git clone https://github.com/math-fehr/fast-wfc && cd fast-wfc/
-make all
-./wfc
-```
+    git clone https://github.com/math-fehr/fast-wfc
+    cd fast-wfc
+    cxx run
 
 # Performance
 
@@ -29,7 +30,7 @@ Besides, care has been taken for the code to be cache-friendly and to leave enou
 
 # Third-parties library
 
-The files in `src/lib/` come from:
+Some files in `include/` come from:
 * RapidXML [https://github.com/dwd/rapidxml](https://github.com/dwd/rapidxml)
 * stb Library [https://github.com/nothings/stb](https://github.com/nothings/stb)
 

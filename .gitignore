@@ -1,5 +1,5 @@
 # The executable
-wfc
+fast-wfc-cxx
 
 # The results of the algorithm
-results/*
+img/*
